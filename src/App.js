@@ -49,7 +49,7 @@ function App() {
         />
       </header>
       {filters.length > 0 && (
-        <div className="flex flex-row bg-white items-center shadow-lg justify-between mx-4 my-8 py-6 lg:px-12 px-6 rounded-lg">
+        <div className="flex flex-row bg-white items-center shadow-lg justify-between mx-4 lg:mx-8 -mt-20 z-10 relative py-6 lg:px-12 px-6 rounded-lg">
           <div className="flex flex-wrap">
             {filters.map((filter) => (
               <div className="mr-4 my-2">
